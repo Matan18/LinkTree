@@ -49,7 +49,7 @@ body {
   padding-bottom: 40px;
 }
 
-.header h3 {
+.header h2 {
   font-size: 2em;
 }
 
@@ -96,7 +96,7 @@ body {
 .roleta {
   top: 27px;
   left: -52px;
-  display: flex;
+  display: none;
   justify-content: space-between;
   width: 204px;
   position: absolute;
@@ -209,6 +209,12 @@ body {
 }
 
 @media (min-width: 37em) {
+  .header h2 {
+    margin-top: 50px;
+  }
+  .roleta {
+    display: flex;
+  }
   .contact {
     width: 300px;
   }
